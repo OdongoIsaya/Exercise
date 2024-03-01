@@ -86,7 +86,7 @@ grep ">" *.fa | grep "mRNA" |cut -d "," -f1 |cut -d ":" -f3| cut  -d "" -f12 |so
 grep -v "nrf1" *.fa | tr -d '\n' | grep -o '[AGCTagct]' | wc -c > /home/odongo/Desktop/exercise/result/nucleotidecount.txt
 ~~~
 ## cd in result directory to visualize the sequence
-## count nucleotide and store various count of of each nu nucleotide in their  respective files
+## count nucleotide and store various count of of each nucleotide in their  respective files
 ~~~
 grep -v "nrf1" *.fa | tr -d '\n' | grep -o 'A' | wc -c > /home/odongo/Desktop/exercise/result/nucleotide_A_count.txt
 ~~~
