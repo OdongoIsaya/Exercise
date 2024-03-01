@@ -67,7 +67,7 @@ grep "PREDICTED" *.fa | cat >  /home/odongo/Desktop/exercise/result/predicted.tx
  grep "PREDICTED" *.fa | wc -l|  cat >  /home/odongo/Desktop/exercise/result/predicted_count.txt
 ~~~
 ## Question 6 Count the number of mRNA
-## Extract non mrna trasncripts and store thme  in in non_trasscript folder located in  result folder
+## Extract non mrna trasncripts and store thme  in in non_transcript folder located in  result folder
  
 ~~~
 ### count non mrna transcripts and store in  non_transcripts_count.txt and mrna
